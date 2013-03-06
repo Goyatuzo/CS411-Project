@@ -1,22 +1,12 @@
+#searchBox input.search {
+    font-size: 12px;
+    color: #999;
+    padding: 4px 10px 5px 30px;
+    width: 313px;
+    border: none;
+    background: url(images/02_background.png) top left no-repeat;
+}
 
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#searchBox input.submit {
+    display: none;
+}
