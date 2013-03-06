@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <?php require_once("db.php"); ?>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -70,14 +71,16 @@
 
             <!-- Main hero unit for a primary marketing message or call to action -->
             <div class="hero-unit">
-                <h1>About</h1>
+                <h1>Class Undecided</h1>
 				<p>
-					This website was made with the intent to help college students (specifically, UIUC Computer Science
-					students) make decisions based on a crowd-sourced reccomendation feature.  Have you ever wondered
-					whether or not the class you want to take are considered difficult by even the smartest people?
-					What about a certain combination of classes?  For an example, is taking CS241, CS242, and CS273
-					concurrently a good or bad idea?  Ask around!  Click the home page to begin searching!
+					Ever wondered what your particular combination of classes would be like BEFORE you take
+					the class?  See if anybody else has wondered the same thing.  If not, a brand new
+					combination will be posted so you can get feedback!
 				</p>
+				<form id="searchBar" action="">
+					<input id="search" type="text" placeholder="Separate by commas.">
+					<input id="submit" type="submit" value="Search">
+				</form>
             <!-- </div>
                     <h2>Heading</h2>
                     <p>Hello.</p>
