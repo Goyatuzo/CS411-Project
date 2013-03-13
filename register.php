@@ -1,7 +1,11 @@
-<?php session_start(); require_once("ChromePhp.php"); require_once("db.php"); 
+<?php session_start(); require_once("ChromePhp.php"); require_once("db.php");
         $db = new db();
         
         $_SESSION['user_id']=-1;
+        $username = $_POST['username'];
+	$password = $_POST['password'];
+	$degree = $_POST['degree'];
+	$db->register($username, $password, $degree);
 ?>
 
 <!DOCTYPE html>
@@ -62,12 +66,12 @@
                                 </ul>
                             </li> -->
                         </ul>
-                        <form class="navbar-form pull-right" action="login.php" method="post">
+                        <form class="navbar-form pull-right" action="login.php">
                             <input class="span2" type="text" name="username" placeholder="Username">
                             <input class="span2" type="password" name="password" placeholder="Password">
                             <button type="submit" class="btn">Sign in</button>
                         </form><br>
-                        <form class="navbar-form pull-right" action="register.php" method="post">
+                        <form class="navbar-form pull-right" action="register.php">
                             <input class="span2" type="text" name="username" placeholder="Username">
                             <input class="span2" type="password" name="password" placeholder="Password">
                             <input class="span2" type="text" name="degree" placeholder="Degree">

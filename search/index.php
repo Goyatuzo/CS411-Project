@@ -1,9 +1,3 @@
-<?php session_start(); require_once("ChromePhp.php"); require_once("db.php"); 
-        $db = new db();
-        
-        $_SESSION['user_id']=-1;
-?>
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -16,17 +10,18 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <style>
             body {
                 padding-top: 60px;
                 padding-bottom: 40px;
             }
         </style>
-        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -48,7 +43,7 @@
                         <ul class="nav">
                             <li class="active"><a href="index.php">Home</a></li>
                             <li><a href="about.html">About</a></li>
-                            <!-- <li><a href="contact.html">Contact</a></li> -->
+                            <li><a href="contact.html">Contact</a></li>
                             <!-- <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
@@ -62,16 +57,10 @@
                                 </ul>
                             </li> -->
                         </ul>
-                        <form class="navbar-form pull-right" action="login.php" method="post">
-                            <input class="span2" type="text" name="username" placeholder="Username">
-                            <input class="span2" type="password" name="password" placeholder="Password">
+                        <form class="navbar-form pull-right">
+                            <input class="span2" type="text" placeholder="Email">
+                            <input class="span2" type="password" placeholder="Password">
                             <button type="submit" class="btn">Sign in</button>
-                        </form><br>
-                        <form class="navbar-form pull-right" action="register.php" method="post">
-                            <input class="span2" type="text" name="username" placeholder="Username">
-                            <input class="span2" type="password" name="password" placeholder="Password">
-                            <input class="span2" type="text" name="degree" placeholder="Degree">
-                            <button type="submit" class="btn"style="height: 32px; width: 100px"> Register</button>
                         </form>
                     </div><!--/.nav-collapse -->
                 </div>
@@ -82,16 +71,26 @@
 
             <!-- Main hero unit for a primary marketing message or call to action -->
             <div class="hero-unit">
-                <h1>Class Undecided</h1>
-				<p>
-					Ever wondered what your particular combination of classes would be like BEFORE you take
-					the class?  See if anybody else has wondered the same thing.  If not, a brand new
-					combination will be posted so you can get feedback!
-				</p>
-				<p>	
-					Please log in.
-				</p>
-				
+                <h1>Class Undecided</h1><?php
+                $pageURL = $_SERVER["REQUEST_URI"];
+                $query = substr($pageURL, 1 + strpos($pageURL, "?"));
+echo realpath (dirname(__FILE__));
+                $q = new querry();
+                $q->queryWithCourses($query);
+ ?>
+
+            <!-- </div>
+                    <h2>Heading</h2>
+                    <p>Hello.</p>
+                    <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p>&copy; Company 2012</p>
+            </footer> -->
+
         </div> <!-- /container -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

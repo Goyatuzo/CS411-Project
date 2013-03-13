@@ -1,7 +1,13 @@
-<?php session_start(); require_once("ChromePhp.php"); require_once("db.php"); 
-        $db = new db();
-        
-        $_SESSION['user_id']=-1;
+<?php session_start(); require_once("ChromePhp.php"); require_once("db.php");
+	$username = $_POST['username' ];
+	$password = $_POST['password'];
+	$db = new db();
+	$user_id = $db->login($username, $password);
+	if($user_id==null)
+	{
+		header("Location:http://undecided.web.engr.illinois.edu");
+	}
+	$_SESSION['user_id']=$user_id;
 ?>
 
 <!DOCTYPE html>
@@ -62,16 +68,8 @@
                                 </ul>
                             </li> -->
                         </ul>
-                        <form class="navbar-form pull-right" action="login.php" method="post">
-                            <input class="span2" type="text" name="username" placeholder="Username">
-                            <input class="span2" type="password" name="password" placeholder="Password">
-                            <button type="submit" class="btn">Sign in</button>
-                        </form><br>
-                        <form class="navbar-form pull-right" action="register.php" method="post">
-                            <input class="span2" type="text" name="username" placeholder="Username">
-                            <input class="span2" type="password" name="password" placeholder="Password">
-                            <input class="span2" type="text" name="degree" placeholder="Degree">
-                            <button type="submit" class="btn"style="height: 32px; width: 100px"> Register</button>
+                        <form class="navbar-form pull-right" action="http://undecided.web.engr.illinois.edu">
+                            <button type="submit" class="btn">Log out</button>
                         </form>
                     </div><!--/.nav-collapse -->
                 </div>
@@ -89,8 +87,16 @@
 					combination will be posted so you can get feedback!
 				</p>
 				<p>	
-					Please log in.
+					Note:  Do not separate the class type with its number.  In other words, type "CS411" instead
+					of "CS 411".
 				</p>
+				<form id="searchBar" action="result.php" method="get">
+					<input id="search" name="classOne" type="text" placeholder="First class.">
+					<input id="search2" name="classTwo" type="text" placeholder="Second class.">
+					<input id="search3" name="classThree" type="text" placeholder="Third class.">
+					
+					<input id="submit" type="submit" value="Search">
+				</form>
 				
         </div> <!-- /container -->
 

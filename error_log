@@ -1,0 +1,398 @@
+[05-Mar-2013 15:54:24 America/Chicago] PHP Fatal error:  Undefined class constant 'ATTR_ERMODE' in /home/undecided/public_html/db.php on line 6
+[08-Mar-2013 17:43:50 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/undecided/public_html/db.php on line 18
+[08-Mar-2013 17:43:58 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/undecided/public_html/db.php on line 18
+[08-Mar-2013 17:48:00 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/undecided/public_html/db.php on line 28
+[08-Mar-2013 17:49:02 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/undecided/public_html/db.php on line 28
+[08-Mar-2013 18:35:30 America/Chicago] PHP Warning:  require_once(ChomePhp.php): failed to open stream: No such file or directory in /home/undecided/public_html/index.php on line 31
+[08-Mar-2013 18:35:30 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ChomePhp.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/index.php on line 31
+[08-Mar-2013 18:37:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/index.php:31) in /home/undecided/public_html/ChromePhp.php on line 385
+[08-Mar-2013 18:37:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/index.php:23) in /home/undecided/public_html/ChromePhp.php on line 385
+[08-Mar-2013 18:37:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/index.php:23) in /home/undecided/public_html/ChromePhp.php on line 385
+[08-Mar-2013 18:38:08 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/index.php:23) in /home/undecided/public_html/ChromePhp.php on line 385
+[08-Mar-2013 18:39:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/index.php:22) in /home/undecided/public_html/ChromePhp.php on line 385
+[08-Mar-2013 18:39:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/index.php:22) in /home/undecided/public_html/ChromePhp.php on line 385
+[08-Mar-2013 18:39:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/index.php:6) in /home/undecided/public_html/ChromePhp.php on line 385
+[08-Mar-2013 18:39:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/index.php:6) in /home/undecided/public_html/ChromePhp.php on line 385
+[08-Mar-2013 18:41:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/index.php:26) in /home/undecided/public_html/ChromePhp.php on line 385
+[08-Mar-2013 18:41:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/index.php:26) in /home/undecided/public_html/ChromePhp.php on line 385
+[08-Mar-2013 18:42:37 America/Chicago] PHP Warning:  require(/ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:42:37 America/Chicago] PHP Fatal error:  require(): Failed opening required '/ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:13 America/Chicago] PHP Warning:  require(ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:13 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:16 America/Chicago] PHP Warning:  require(ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:16 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:32 America/Chicago] PHP Warning:  require(ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:32 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:34 America/Chicago] PHP Warning:  require(ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:34 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:42 America/Chicago] PHP Warning:  require(ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:42 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:52 America/Chicago] PHP Warning:  require(ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:52 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:53 America/Chicago] PHP Warning:  require(ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:53 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:58 America/Chicago] PHP Warning:  require(ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:58 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:44:49 America/Chicago] PHP Warning:  require(ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:44:49 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:46:24 America/Chicago] PHP Warning:  require(ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:46:24 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:46:25 America/Chicago] PHP Warning:  require(ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:46:25 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:46:26 America/Chicago] PHP Warning:  require(ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:46:26 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:46:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/index.php:26) in /home/undecided/public_html/ChromePhp.php on line 385
+[08-Mar-2013 18:47:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/index.php:26) in /home/undecided/public_html/ChromePhp.php on line 385
+[08-Mar-2013 19:19:42 America/Chicago] PHP Fatal error:  Call to undefined function queryWithCourses() in /home/undecided/public_html/db.php on line 14
+[08-Mar-2013 19:20:20 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/undecided/public_html/db.php on line 13
+[08-Mar-2013 19:20:56 America/Chicago] PHP Fatal error:  Class 'query' not found in /home/undecided/public_html/db.php on line 13
+[08-Mar-2013 19:22:04 America/Chicago] PHP Fatal error:  Call to undefined function queryWithCourses() in /home/undecided/public_html/index.php on line 2
+[08-Mar-2013 19:22:37 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 11
+[08-Mar-2013 19:23:33 America/Chicago] PHP Fatal error:  Class 'queryy' not found in /home/undecided/public_html/index.php on line 2
+[08-Mar-2013 19:24:16 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 11
+[08-Mar-2013 19:25:29 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 11
+[08-Mar-2013 19:27:54 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 11
+[08-Mar-2013 19:28:01 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 11
+[08-Mar-2013 19:31:55 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:31:56 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:32:56 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:32:57 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:01 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:02 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:03 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:03 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:03 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:04 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:04 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:04 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:04 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:04 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:05 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:05 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:05 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:05 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:05 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:06 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:06 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:33:13 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 26
+[08-Mar-2013 19:34:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'engr-cpanel2.engr.illinois.edu' (using password: NO)' in /home/undecided/public_html/query.php:15
+Stack trace:
+#0 /home/undecided/public_html/query.php(15): PDO->__construct('mysql:host=engr...', NULL, NULL)
+#1 /home/undecided/public_html/index.php(4): query->queryWithCourses('a')
+#2 {main}
+  thrown in /home/undecided/public_html/query.php on line 15
+[08-Mar-2013 19:35:08 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:35:32 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:35:40 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 25
+[08-Mar-2013 19:37:57 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 19
+[08-Mar-2013 19:43:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/db.php:21) in /home/undecided/public_html/ChromePhp.php on line 385
+[08-Mar-2013 19:44:56 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting catch (T_CATCH) in /home/undecided/public_html/query.php on line 30
+[08-Mar-2013 19:45:01 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting catch (T_CATCH) in /home/undecided/public_html/query.php on line 30
+[08-Mar-2013 19:48:08 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 19
+[08-Mar-2013 19:49:37 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/undecided/public_html/index.php on line 4
+[08-Mar-2013 19:49:54 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/query.php on line 19
+[08-Mar-2013 19:51:35 America/Chicago] PHP Parse error:  syntax error, unexpected '$username' (T_VARIABLE), expecting function (T_FUNCTION) in /home/undecided/public_html/db.php on line 4
+[08-Mar-2013 19:51:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'try' (T_TRY), expecting function (T_FUNCTION) in /home/undecided/public_html/db.php on line 6
+[09-Mar-2013 02:13:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE course_name = $courses[0] OR course_name = $courses[1] OR course_name = $c' at line 1' in /home/undecided/public_html/db.php:12
+Stack trace:
+#0 /home/undecided/public_html/db.php(12): PDO->query('SELECT combo_id...')
+#1 /home/undecided/public_html/index.php(1): require_once('/home/undecided...')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 12
+[09-Mar-2013 02:20:58 America/Chicago] PHP Parse error:  syntax error, unexpected '$courses' (T_VARIABLE) in /home/undecided/public_html/db.php on line 12
+[09-Mar-2013 02:24:19 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/undecided/public_html/db.php on line 13
+[09-Mar-2013 02:24:52 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/undecided/public_html/db.php on line 13
+[09-Mar-2013 02:25:44 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/undecided/public_html/db.php on line 15
+[09-Mar-2013 02:26:53 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/undecided/public_html/db.php on line 15
+[09-Mar-2013 02:27:18 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/undecided/public_html/db.php on line 15
+[09-Mar-2013 02:28:35 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/undecided/public_html/db.php on line 15
+[09-Mar-2013 02:30:56 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/undecided/public_html/db.php on line 16
+[09-Mar-2013 02:30:58 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/undecided/public_html/db.php on line 16
+[09-Mar-2013 02:30:59 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/undecided/public_html/db.php on line 16
+[09-Mar-2013 02:31:28 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/undecided/public_html/db.php on line 15
+[09-Mar-2013 02:31:50 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/undecided/public_html/db.php on line 15
+[09-Mar-2013 02:31:52 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/undecided/public_html/db.php on line 15
+[09-Mar-2013 02:33:57 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/undecided/public_html/db.php on line 15
+[09-Mar-2013 02:45:52 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home/undecided/public_html/db.php on line 15
+[09-Mar-2013 02:51:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home/undecided/public_html/db.php on line 15
+[09-Mar-2013 02:51:58 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/undecided/public_html/db.php:15
+Stack trace:
+#0 /home/undecided/public_html/db.php(15): PDO->query('')
+#1 /home/undecided/public_html/index.php(1): require_once('/home/undecided...')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 15
+[09-Mar-2013 02:54:18 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/undecided/public_html/db.php:14
+Stack trace:
+#0 /home/undecided/public_html/db.php(14): PDO->query('')
+#1 /home/undecided/public_html/index.php(1): require_once('/home/undecided...')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 14
+[09-Mar-2013 02:57:44 America/Chicago] PHP Parse error:  syntax error, unexpected '$username' (T_VARIABLE), expecting function (T_FUNCTION) in /home/undecided/public_html/db.php on line 4
+[09-Mar-2013 03:01:14 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/undecided/public_html/index.php on line 4
+[09-Mar-2013 03:01:26 America/Chicago] PHP Fatal error:  Call to a member function queryWithCourses() on a non-object in /home/undecided/public_html/index.php on line 4
+[09-Mar-2013 13:29:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting ',' or ';' in /home/undecided/public_html/result.php on line 18
+[09-Mar-2013 13:33:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'INSERT' (T_STRING) in /home/undecided/public_html/db.php on line 35
+[09-Mar-2013 13:34:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'INSERT' (T_STRING) in /home/undecided/public_html/db.php on line 35
+[09-Mar-2013 13:37:35 America/Chicago] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/undecided/public_html/db.php on line 32
+[09-Mar-2013 13:39:18 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/undecided/public_html/db.php on line 32
+[09-Mar-2013 13:52:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/undecided/public_html/db.php on line 22
+[09-Mar-2013 13:53:29 America/Chicago] PHP Fatal error:  Call to undefined function arr_push() in /home/undecided/public_html/db.php on line 24
+[09-Mar-2013 13:59:01 America/Chicago] PHP Fatal error:  Undefined constant 'n' in /home/undecided/public_html/result.php on line 96
+[09-Mar-2013 13:59:17 America/Chicago] PHP Fatal error:  Undefined constant 'n' in /home/undecided/public_html/result.php on line 96
+[09-Mar-2013 14:44:41 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/undecided/public_html/result.php on line 98
+[09-Mar-2013 14:45:47 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/undecided/public_html/result.php on line 100
+[09-Mar-2013 14:46:14 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/undecided/public_html/result.php on line 98
+[09-Mar-2013 14:51:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/undecided/public_html/login.php on line 3
+[09-Mar-2013 15:01:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home/undecided/public_html/db.php on line 45
+[09-Mar-2013 15:01:10 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home/undecided/public_html/db.php on line 45
+[09-Mar-2013 15:01:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home/undecided/public_html/db.php on line 45
+[09-Mar-2013 15:01:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home/undecided/public_html/db.php on line 45
+[09-Mar-2013 15:02:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home/undecided/public_html/db.php on line 45
+[09-Mar-2013 15:07:39 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/undecided/public_html/db.php on line 58
+[09-Mar-2013 15:07:44 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/undecided/public_html/db.php on line 58
+[09-Mar-2013 15:07:52 America/Chicago] PHP Fatal error:  Class 'db' not found in /home/undecided/public_html/login.php on line 4
+[09-Mar-2013 15:14:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:3) in /home/undecided/public_html/post_comment.php on line 6
+[09-Mar-2013 15:16:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/db.php:11) in /home/undecided/public_html/login.php on line 8
+[09-Mar-2013 15:17:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:3) in /home/undecided/public_html/post_comment.php on line 4
+[09-Mar-2013 15:17:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:3) in /home/undecided/public_html/post_comment.php on line 4
+[09-Mar-2013 15:17:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/db.php:11) in /home/undecided/public_html/login.php on line 11
+[09-Mar-2013 15:20:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/db.php:11) in /home/undecided/public_html/login.php on line 9
+[09-Mar-2013 15:21:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/db.php:11) in /home/undecided/public_html/login.php on line 9
+[09-Mar-2013 15:43:04 America/Chicago] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/undecided/public_html/db.php on line 65
+[09-Mar-2013 16:15:38 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 'CS411')' at line 2' in /home/undecided/public_html/db.php:37
+Stack trace:
+#0 /home/undecided/public_html/db.php(37): PDO->query('INSERT INTO Com...')
+#1 /home/undecided/public_html/result.php(110): db->addCombination(Array, NULL)
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 37
+[09-Mar-2013 16:15:51 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 'CS411')' at line 2' in /home/undecided/public_html/db.php:37
+Stack trace:
+#0 /home/undecided/public_html/db.php(37): PDO->query('INSERT INTO Com...')
+#1 /home/undecided/public_html/result.php(110): db->addCombination(Array, NULL)
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 37
+[09-Mar-2013 16:16:38 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 'CS411')' at line 2' in /home/undecided/public_html/db.php:37
+Stack trace:
+#0 /home/undecided/public_html/db.php(37): PDO->query('INSERT INTO Com...')
+#1 /home/undecided/public_html/result.php(110): db->addCombination(Array, NULL)
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 37
+[09-Mar-2013 16:30:27 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/undecided/public_html/db.php on line 52
+[09-Mar-2013 17:09:02 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/undecided/public_html/register.php on line 3
+[09-Mar-2013 17:19:38 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 'CS210')' at line 2' in /home/undecided/public_html/db.php:43
+Stack trace:
+#0 /home/undecided/public_html/db.php(43): PDO->query('INSERT INTO Com...')
+#1 /home/undecided/public_html/result.php(108): db->addCombination(Array, NULL)
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 43
+[09-Mar-2013 18:46:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ',' or ';' in /home/undecided/public_html/db.php on line 71
+[09-Mar-2013 18:46:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ',' or ';' in /home/undecided/public_html/db.php on line 71
+[09-Mar-2013 18:46:54 America/Chicago] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ',' or ';' in /home/undecided/public_html/db.php on line 72
+[09-Mar-2013 18:47:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Science)' at line 2' in /home/undecided/public_html/db.php:78
+Stack trace:
+#0 /home/undecided/public_html/db.php(78): PDO->query('INSERT INTO Stu...')
+#1 /home/undecided/public_html/register.php(8): db->register('user', 'pass', 'Computer Scienc...')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 78
+[09-Mar-2013 18:54:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:3) in /home/undecided/public_html/post_comment.php on line 14
+[10-Mar-2013 13:32:31 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/undecided/public_html/result.php on line 97
+[10-Mar-2013 13:37:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/undecided/public_html/result.php on line 90
+[10-Mar-2013 13:39:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:3) in /home/undecided/public_html/post_comment.php on line 14
+[10-Mar-2013 13:42:33 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:3) in /home/undecided/public_html/post_comment.php on line 14
+[10-Mar-2013 13:45:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:3) in /home/undecided/public_html/post_comment.php on line 14
+[10-Mar-2013 13:45:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:3) in /home/undecided/public_html/post_comment.php on line 14
+[10-Mar-2013 13:46:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:3) in /home/undecided/public_html/post_comment.php on line 14
+[10-Mar-2013 13:47:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:3) in /home/undecided/public_html/post_comment.php on line 14
+[10-Mar-2013 13:49:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:3) in /home/undecided/public_html/post_comment.php on line 14
+[10-Mar-2013 13:53:02 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:3) in /home/undecided/public_html/post_comment.php on line 14
+[10-Mar-2013 13:56:54 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/undecided/public_html/post_comment.php:3) in /home/undecided/public_html/post_comment.php on line 3
+[10-Mar-2013 13:58:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/undecided/public_html/result.php on line 94
+[10-Mar-2013 14:02:01 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 'CS210')' at line 2' in /home/undecided/public_html/db.php:43
+Stack trace:
+#0 /home/undecided/public_html/db.php(43): PDO->query('INSERT INTO Com...')
+#1 /home/undecided/public_html/result.php(92): db->addCombination(Array, NULL)
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 43
+[10-Mar-2013 14:06:24 America/Chicago] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/undecided/public_html/result.php on line 95
+[10-Mar-2013 14:09:36 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/undecided/public_html/result.php on line 88
+[10-Mar-2013 14:09:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/undecided/public_html/result.php on line 88
+[10-Mar-2013 14:09:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/undecided/public_html/result.php on line 88
+[10-Mar-2013 14:09:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/undecided/public_html/result.php on line 98
+[10-Mar-2013 14:10:11 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/undecided/public_html/result.php on line 98
+[10-Mar-2013 14:10:21 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/undecided/public_html/result.php on line 101
+[10-Mar-2013 14:10:22 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/undecided/public_html/result.php on line 101
+[10-Mar-2013 14:16:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/undecided/public_html/result.php on line 108
+[10-Mar-2013 14:17:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/undecided/public_html/result.php on line 108
+[10-Mar-2013 14:17:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/undecided/public_html/result.php on line 108
+[10-Mar-2013 14:20:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/result.php:75) in /home/undecided/public_html/ChromePhp.php on line 385
+[10-Mar-2013 14:20:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/result.php:75) in /home/undecided/public_html/ChromePhp.php on line 385
+[10-Mar-2013 14:20:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/result.php:75) in /home/undecided/public_html/ChromePhp.php on line 385
+[10-Mar-2013 14:24:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/result.php:75) in /home/undecided/public_html/ChromePhp.php on line 385
+[10-Mar-2013 14:24:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/result.php:75) in /home/undecided/public_html/ChromePhp.php on line 385
+[10-Mar-2013 14:24:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/result.php:75) in /home/undecided/public_html/ChromePhp.php on line 385
+[10-Mar-2013 14:27:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/result.php:75) in /home/undecided/public_html/ChromePhp.php on line 385
+[10-Mar-2013 14:28:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:11) in /home/undecided/public_html/post_comment.php on line 16
+[10-Mar-2013 14:29:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:11) in /home/undecided/public_html/post_comment.php on line 16
+[10-Mar-2013 14:29:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:11) in /home/undecided/public_html/post_comment.php on line 16
+[10-Mar-2013 14:30:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/result.php:75) in /home/undecided/public_html/ChromePhp.php on line 385
+[10-Mar-2013 14:30:25 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/result.php:75) in /home/undecided/public_html/ChromePhp.php on line 385
+[10-Mar-2013 14:30:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/result.php:75) in /home/undecided/public_html/ChromePhp.php on line 385
+[10-Mar-2013 14:30:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/result.php:75) in /home/undecided/public_html/ChromePhp.php on line 385
+[10-Mar-2013 14:32:13 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/undecided/public_html/result.php on line 151
+[10-Mar-2013 14:35:25 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't taken this before', '3', 0, 0)' at line 2' in /home/undecided/public_html/db.php:111
+Stack trace:
+#0 /home/undecided/public_html/db.php(111): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview(NULL, '2', 'Haven't taken t...', '3')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 111
+[10-Mar-2013 14:35:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:11) in /home/undecided/public_html/post_comment.php on line 16
+[10-Mar-2013 14:37:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/undecided/public_html/result.php on line 90
+[10-Mar-2013 14:38:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/undecided/public_html/result.php on line 92
+[10-Mar-2013 14:39:24 America/Chicago] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/undecided/public_html/result.php on line 90
+[10-Mar-2013 14:39:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/undecided/public_html/result.php on line 90
+[10-Mar-2013 14:39:36 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/undecided/public_html/result.php on line 97
+[10-Mar-2013 14:40:08 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/undecided/public_html/result.php on line 95
+[10-Mar-2013 14:40:09 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/undecided/public_html/result.php on line 95
+[10-Mar-2013 14:46:58 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 121
+[10-Mar-2013 14:47:57 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 121
+[10-Mar-2013 15:10:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/undecided/public_html/post_comment.php:4) in /home/undecided/public_html/post_comment.php on line 17
+[10-Mar-2013 15:22:20 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home/undecided/public_html/db.php on line 126
+[10-Mar-2013 15:41:23 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 120
+[10-Mar-2013 15:41:44 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 120
+[10-Mar-2013 15:42:16 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 120
+[10-Mar-2013 15:42:30 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 120
+[10-Mar-2013 15:44:11 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 120
+[10-Mar-2013 15:57:08 America/Chicago] PHP Warning:  array_count_values(): Can only count STRING and INTEGER values! in /home/undecided/public_html/db.php on line 53
+[10-Mar-2013 15:57:08 America/Chicago] PHP Warning:  array_count_values(): Can only count STRING and INTEGER values! in /home/undecided/public_html/db.php on line 53
+[10-Mar-2013 15:57:08 America/Chicago] PHP Warning:  array_count_values(): Can only count STRING and INTEGER values! in /home/undecided/public_html/db.php on line 53
+[10-Mar-2013 16:02:31 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 127
+[10-Mar-2013 16:03:12 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 127
+[10-Mar-2013 16:03:14 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 127
+[10-Mar-2013 16:04:50 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 127
+[10-Mar-2013 16:06:51 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 127
+[10-Mar-2013 16:06:56 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 127
+[10-Mar-2013 16:07:12 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 127
+[10-Mar-2013 16:07:34 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 127
+[10-Mar-2013 16:08:14 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 127
+[10-Mar-2013 16:09:16 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/undecided/public_html/result.php on line 127
+[10-Mar-2013 16:09:43 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/undecided/public_html/result.php on line 127
+[10-Mar-2013 16:17:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'review_id' (T_STRING), expecting ']' in /home/undecided/public_html/delete_comment.php on line 2
+[10-Mar-2013 16:17:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'review_id' (T_STRING), expecting ']' in /home/undecided/public_html/delete_comment.php on line 2
+[10-Mar-2013 16:24:53 America/Chicago] PHP Parse error:  syntax error, unexpected '$review' (T_VARIABLE) in /home/undecided/public_html/result.php on line 122
+[10-Mar-2013 16:24:57 America/Chicago] PHP Parse error:  syntax error, unexpected '$review' (T_VARIABLE) in /home/undecided/public_html/result.php on line 122
+[10-Mar-2013 16:31:50 America/Chicago] PHP Fatal error:  Call to a member function deleteReview() on a non-object in /home/undecided/public_html/delete_comment.php on line 4
+[10-Mar-2013 16:34:12 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's delete a comment.', '3', 0, 0)' at line 2' in /home/undecided/public_html/db.php:127
+Stack trace:
+#0 /home/undecided/public_html/db.php(127): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '3', 'Let's delete a ...', '3')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 127
+[10-Mar-2013 16:34:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's delete a comment.', '3', 0, 0)' at line 2' in /home/undecided/public_html/db.php:127
+Stack trace:
+#0 /home/undecided/public_html/db.php(127): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '3', 'Let's delete a ...', '3')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 127
+[10-Mar-2013 16:34:54 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's delete a comment', '1', 0, 0)' at line 2' in /home/undecided/public_html/db.php:127
+Stack trace:
+#0 /home/undecided/public_html/db.php(127): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'Let's delete a ...', '1')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 127
+[10-Mar-2013 16:34:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's delete a comment.', '3', 0, 0)' at line 2' in /home/undecided/public_html/db.php:127
+Stack trace:
+#0 /home/undecided/public_html/db.php(127): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '3', 'Let's delete a ...', '3')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 127
+[10-Mar-2013 16:35:47 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's delete a comment', '1', 0, 0)' at line 2' in /home/undecided/public_html/db.php:127
+Stack trace:
+#0 /home/undecided/public_html/db.php(127): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'Let's delete a ...', '1')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 127
+[10-Mar-2013 16:42:14 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2', 0, 0)' at line 2' in /home/undecided/public_html/db.php:127
+Stack trace:
+#0 /home/undecided/public_html/db.php(127): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'Let'', '2')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 127
+[10-Mar-2013 17:02:57 America/Chicago] PHP Parse error:  syntax error, unexpected '.=' (T_CONCAT_EQUAL) in /home/undecided/public_html/db.php on line 27
+[10-Mar-2013 17:07:47 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0', 0, 0)' at line 2' in /home/undecided/public_html/db.php:132
+Stack trace:
+#0 /home/undecided/public_html/db.php(132): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'hi'', '0')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 132
+[10-Mar-2013 17:09:09 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0', 0, 0)' at line 2' in /home/undecided/public_html/db.php:132
+Stack trace:
+#0 /home/undecided/public_html/db.php(132): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'me'', '0')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 132
+[10-Mar-2013 17:10:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0', 0, 0)' at line 2' in /home/undecided/public_html/db.php:132
+Stack trace:
+#0 /home/undecided/public_html/db.php(132): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'me'', '0')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 132
+[10-Mar-2013 17:12:12 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '4', 0, 0)' at line 2' in /home/undecided/public_html/db.php:133
+Stack trace:
+#0 /home/undecided/public_html/db.php(133): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', ''', '4')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 133
+[10-Mar-2013 17:20:20 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/undecided/public_html/db.php on line 140
+[10-Mar-2013 17:25:22 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a'e', '0', 0, 0)' at line 2' in /home/undecided/public_html/db.php:132
+Stack trace:
+#0 /home/undecided/public_html/db.php(132): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'a'e', '0')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 132
+[10-Mar-2013 17:25:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e', '0', 0, 0)' at line 2' in /home/undecided/public_html/db.php:132
+Stack trace:
+#0 /home/undecided/public_html/db.php(132): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'a'e', '0')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 132
+[10-Mar-2013 17:26:54 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'b', '1', 0, 0)' at line 2' in /home/undecided/public_html/db.php:132
+Stack trace:
+#0 /home/undecided/public_html/db.php(132): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'a'b', '1')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 132
+[10-Mar-2013 17:29:28 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'l'', '0', 0, 0)' at line 2' in /home/undecided/public_html/db.php:132
+Stack trace:
+#0 /home/undecided/public_html/db.php(132): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'w'e'l'', '0')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 132
+[10-Mar-2013 17:30:18 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/undecided/public_html/db.php on line 137
+[10-Mar-2013 17:59:25 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0', 0, 0)' at line 2' in /home/undecided/public_html/db.php:132
+Stack trace:
+#0 /home/undecided/public_html/db.php(132): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'ab'', '0')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 132
+[10-Mar-2013 17:59:55 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0', 0, 0)' at line 2' in /home/undecided/public_html/db.php:132
+Stack trace:
+#0 /home/undecided/public_html/db.php(132): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'ab'', '0')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 132
+[10-Mar-2013 18:00:09 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0', 0, 0)' at line 2' in /home/undecided/public_html/db.php:132
+Stack trace:
+#0 /home/undecided/public_html/db.php(132): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'ab'', '0')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 132
+[10-Mar-2013 18:01:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$str1' (T_VARIABLE) in /home/undecided/public_html/db.php on line 140
+[10-Mar-2013 18:01:03 America/Chicago] PHP Parse error:  syntax error, unexpected '$str1' (T_VARIABLE) in /home/undecided/public_html/db.php on line 140
+[10-Mar-2013 18:20:53 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'b', '0', 0, 0)' at line 2' in /home/undecided/public_html/db.php:132
+Stack trace:
+#0 /home/undecided/public_html/db.php(132): PDO->query('INSERT INTO Rev...')
+#1 /home/undecided/public_html/post_comment.php(6): db->createReview('1', '1', 'a'b', '0')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 132
+[13-Mar-2013 14:47:59 America/Chicago] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home/undecided/public_html/result.php on line 136
+[13-Mar-2013 15:12:53 America/Chicago] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE), expecting ',' or ';' in /home/undecided/public_html/result.php on line 138

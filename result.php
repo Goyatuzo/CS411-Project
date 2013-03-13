@@ -1,7 +1,6 @@
-<?php session_start(); require_once("ChromePhp.php"); require_once("db.php"); 
-        $db = new db();
-        
-        $_SESSION['user_id']=-1;
+<?php session_start(); require_once("ChromePhp.php"); require_once("db.php");
+        $db = new db(); $user_id = $_SESSION['user_id'];
+
 ?>
 
 <!DOCTYPE html>
@@ -43,7 +42,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Class Undecided</a>
+                    <a class="brand" href="index.php">Class Undecided</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
                             <li class="active"><a href="index.php">Home</a></li>
@@ -62,16 +61,8 @@
                                 </ul>
                             </li> -->
                         </ul>
-                        <form class="navbar-form pull-right" action="login.php" method="post">
-                            <input class="span2" type="text" name="username" placeholder="Username">
-                            <input class="span2" type="password" name="password" placeholder="Password">
-                            <button type="submit" class="btn">Sign in</button>
-                        </form><br>
-                        <form class="navbar-form pull-right" action="register.php" method="post">
-                            <input class="span2" type="text" name="username" placeholder="Username">
-                            <input class="span2" type="password" name="password" placeholder="Password">
-                            <input class="span2" type="text" name="degree" placeholder="Degree">
-                            <button type="submit" class="btn"style="height: 32px; width: 100px"> Register</button>
+                        <form class="navbar-form pull-right" action="http://undecided.web.engr.illinois.edu">
+                            <button type="submit" class="btn">Log out</button>
                         </form>
                     </div><!--/.nav-collapse -->
                 </div>
@@ -79,19 +70,95 @@
         </div>
 
         <div class="container">
+        		<!-- The COMBINATION itself. -->
+        		<h1>
+        			<?php
+					$firstClass = $_GET[ 'classOne' ];
+					$secondClass = $_GET[ 'classTwo' ];
+					$thirdClass = $_GET[ 'classThree' ];
+					
+					//ChromePhp::log(tempOne);
+					//ChromePhp::log(tempTwo);
+					//ChromePhp::log(tempThree);
+					
+					// Query the server for any combination of these.
+					$courses = array($firstClass, $secondClass, $thirdClass);
+					$ids = $db->queryWithCourses($courses);
+					
+					// Sort the courses.
+					sort( $courses );
+					
+					// Print out the courses in sorted order.
+					foreach( $courses as $course )
+					{
+						echo "$course ";
+					}
+					
+					$_SESSION[ 'firstClass' ] = $firstClass;
+					$_SESSION[ 'secondClass' ] = $secondClass;
+					$_SESSION[ 'thirdClass' ] = $thirdClass;
+					$_SESSION[ 'combo_id' ] =$ids[0];
+					
+					
+					// Print it out.
+				//	print_r($ids);
+					if(empty($ids))
+					{
+						$db->addCombination($courses, $user_id);
+						$ids = $db->queryWithCourses( $courses );
+					}
+					
+					$reviews = $db->getReview( $ids[ 0 ] );
+				?>
+        		</h1>
+        		
+        		<!-- The list of reviews already posted. -->
+			<p>
+				Reviews:
+				<?php
+				foreach( $reviews as $review ) { 
 
-            <!-- Main hero unit for a primary marketing message or call to action -->
-            <div class="hero-unit">
-                <h1>Class Undecided</h1>
-				<p>
-					Ever wondered what your particular combination of classes would be like BEFORE you take
-					the class?  See if anybody else has wondered the same thing.  If not, a brand new
-					combination will be posted so you can get feedback!
-				</p>
-				<p>	
-					Please log in.
-				</p>
-				
+					$review_ID = $review[ 'review_id' ]; ?>
+
+					<li><article id="comment_<?php echo($review[ 'review_id' ]); ?>" >
+					
+						<!-- The text. -->
+						<div class="entry-content">
+							<p>
+								<?php print_r( $review[ 'text' ] ); ?>
+							</p>
+						</div>
+						
+						<!-- Content for Delete button. -->
+						<form id = "delete<?php echo ($review[ 'review_id' ]); ?>" action="delete_comment.php" method="post" />
+							<input type="hidden" name="delete" value="<?php echo htmlspecialchars( $review_ID ); ?>" />
+							<input type="submit" value="Delete Review">
+						</form>	
+						<!-- Helpful or not helpful. -->
+						<?php echo $db->getHelpfulRating($review[ 'review_id' ])." out of ".$db->getRatingCount($review[ 'review_id' ])." people found this review helpful.";?>
+						<a href="like.php?<?php echo htmlspecialchars( $review_ID ); ?>" name="like" value="<?php echo htmlspecialchars( $review_ID ); ?>" ><img src="like.png" alt="UPVOTE!" width="20" height="20"></a>
+						<a href="dislike.php?<?php echo htmlspecialchars( $review_ID ); ?>" name="dislike" value="<?php echo htmlspecialchars( $review_ID ); ?>" ><img src="dislike.png" alt="DOWNVOTE!" width="20" height="20"></a>
+						
+						<hr width ="100%"/>
+					</article></li><?php
+				} ?>
+			</p>
+			<!-- Leave a review -->
+			<form id="commentForm" action="post_comment.php" >
+				<label for="commentBox" class="required">Leave a review:</label>
+				<textarea name="commentBox" id="commentBox" name ="c" rows="10" required="required"></textarea>
+				<select name="rating" required="required">
+				  	<option value="">Rating</option>
+					<option value="0">0</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<input type="submit" value="Submit" style="height 50px; width: 100px" />
+				</select>
+			</form>
+		
         </div> <!-- /container -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

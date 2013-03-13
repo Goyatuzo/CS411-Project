@@ -1,0 +1,90 @@
+[08-Mar-2013 17:05:31 America/Chicago] PHP Warning:  require_once(db.php): failed to open stream: No such file or directory in /home/undecided/public_html/search/index.php on line 24
+[08-Mar-2013 17:05:31 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'db.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/search/index.php on line 24
+[08-Mar-2013 17:05:41 America/Chicago] PHP Warning:  require_once(db.php): failed to open stream: No such file or directory in /home/undecided/public_html/search/index.php on line 24
+[08-Mar-2013 17:05:41 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'db.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/search/index.php on line 24
+[08-Mar-2013 17:05:49 America/Chicago] PHP Warning:  require_once(db.php): failed to open stream: No such file or directory in /home/undecided/public_html/search/index.php on line 24
+[08-Mar-2013 17:05:49 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'db.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/search/index.php on line 24
+[08-Mar-2013 17:14:19 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/undecided/public_html/search/index.php on line 79
+[08-Mar-2013 17:43:10 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/undecided/public_html/db.php on line 18
+[08-Mar-2013 17:45:25 America/Chicago] PHP Parse error:  syntax error, unexpected '$username' (T_VARIABLE), expecting function (T_FUNCTION) in /home/undecided/public_html/db.php on line 4
+[08-Mar-2013 17:46:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'try' (T_TRY), expecting function (T_FUNCTION) in /home/undecided/public_html/db.php on line 6
+[08-Mar-2013 17:47:34 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/undecided/public_html/db.php on line 28
+[08-Mar-2013 17:48:06 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/undecided/public_html/db.php on line 28
+[08-Mar-2013 17:50:20 America/Chicago] PHP Fatal error:  Call to undefined method db::createCombination() in /home/undecided/public_html/search/index.php on line 78
+[08-Mar-2013 17:54:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/undecided/public_html/db.php on line 16
+[08-Mar-2013 18:00:21 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CS210' in 'field list'' in /home/undecided/public_html/db.php:28
+Stack trace:
+#0 /home/undecided/public_html/db.php(28): PDOStatement->execute()
+#1 /home/undecided/public_html/search/index.php(78): db->createCombination('CS210')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 28
+[08-Mar-2013 18:04:27 America/Chicago] PHP Fatal error:  Call to undefined method mysqli::execute() in /home/undecided/public_html/db.php on line 22
+[08-Mar-2013 18:07:19 America/Chicago] PHP Fatal error:  Call to undefined method mysqli::execute() in /home/undecided/public_html/db.php on line 22
+[08-Mar-2013 18:09:22 America/Chicago] PHP Fatal error:  Call to a member function execute() on a non-object in /home/undecided/public_html/db.php on line 22
+[08-Mar-2013 18:14:35 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CS210' in 'field list'' in /home/undecided/public_html/db.php:27
+Stack trace:
+#0 /home/undecided/public_html/db.php(27): PDO->query('INSERT INTO Com...')
+#1 /home/undecided/public_html/search/index.php(78): db->createCombination('CS210')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 27
+[08-Mar-2013 18:15:46 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Combinations' VALUES (0, 0, CS210)' at line 1' in /home/undecided/public_html/db.php:27
+Stack trace:
+#0 /home/undecided/public_html/db.php(27): PDO->query('INSERT INTO 'Co...')
+#1 /home/undecided/public_html/search/index.php(78): db->createCombination('CS210')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 27
+[08-Mar-2013 18:16:53 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Combinations' VALUES (0, 0, 'CS210')' at line 1' in /home/undecided/public_html/db.php:27
+Stack trace:
+#0 /home/undecided/public_html/db.php(27): PDO->query('INSERT INTO 'Co...')
+#1 /home/undecided/public_html/search/index.php(78): db->createCombination('CS210')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 27
+[08-Mar-2013 18:17:09 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Combinations' VALUES (0, 0, CS210)' at line 1' in /home/undecided/public_html/db.php:27
+Stack trace:
+#0 /home/undecided/public_html/db.php(27): PDO->query('INSERT INTO 'Co...')
+#1 /home/undecided/public_html/search/index.php(78): db->createCombination('CS210')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 27
+[08-Mar-2013 18:18:18 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CS210' in 'field list'' in /home/undecided/public_html/db.php:27
+Stack trace:
+#0 /home/undecided/public_html/db.php(27): PDO->query('INSERT INTO Com...')
+#1 /home/undecided/public_html/search/index.php(78): db->createCombination('CS210')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 27
+[08-Mar-2013 18:19:42 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''combo_id','user_id', 'course_name')  VALUES (0, 0, CS210)' at line 1' in /home/undecided/public_html/db.php:27
+Stack trace:
+#0 /home/undecided/public_html/db.php(27): PDO->query('INSERT INTO Com...')
+#1 /home/undecided/public_html/search/index.php(78): db->createCombination('CS210')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 27
+[08-Mar-2013 18:20:45 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CS210' in 'field list'' in /home/undecided/public_html/db.php:27
+Stack trace:
+#0 /home/undecided/public_html/db.php(27): PDO->query('INSERT INTO Com...')
+#1 /home/undecided/public_html/search/index.php(78): db->createCombination('CS210')
+#2 {main}
+  thrown in /home/undecided/public_html/db.php on line 27
+[08-Mar-2013 18:38:20 America/Chicago] PHP Fatal error:  Class 'ChromePhp' not found in /home/undecided/public_html/db.php on line 7
+[08-Mar-2013 18:39:02 America/Chicago] PHP Fatal error:  Class 'ChromePhp' not found in /home/undecided/public_html/db.php on line 7
+[08-Mar-2013 18:40:52 America/Chicago] PHP Fatal error:  Class 'ChromePhp' not found in /home/undecided/public_html/db.php on line 7
+[08-Mar-2013 18:41:25 America/Chicago] PHP Fatal error:  Class 'ChromePhp' not found in /home/undecided/public_html/db.php on line 7
+[08-Mar-2013 18:42:34 America/Chicago] PHP Warning:  require(/ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:42:34 America/Chicago] PHP Fatal error:  require(): Failed opening required '/ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:03 America/Chicago] PHP Warning:  require(ChromePHP.php): failed to open stream: No such file or directory in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:43:03 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ChromePHP.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undecided/public_html/db.php on line 2
+[08-Mar-2013 18:56:53 America/Chicago] PHP Fatal error:  Class 'ChromePhp' not found in /home/undecided/public_html/db.php on line 9
+[08-Mar-2013 18:58:40 America/Chicago] PHP Fatal error:  Class 'query' not found in /home/undecided/public_html/search/index.php on line 77
+[08-Mar-2013 18:59:08 America/Chicago] PHP Fatal error:  Class 'query' not found in /home/undecided/public_html/search/index.php on line 77
+[08-Mar-2013 18:59:35 America/Chicago] PHP Fatal error:  Class 'query' not found in /home/undecided/public_html/search/index.php on line 77
+[08-Mar-2013 19:05:07 America/Chicago] PHP Fatal error:  Call to undefined function queryWithCourses() in /home/undecided/public_html/search/index.php on line 77
+[08-Mar-2013 19:05:51 America/Chicago] PHP Fatal error:  Class 'query' not found in /home/undecided/public_html/search/index.php on line 77
+[08-Mar-2013 19:07:23 America/Chicago] PHP Fatal error:  Class 'query' not found in /home/undecided/public_html/search/index.php on line 78
+[08-Mar-2013 19:07:49 America/Chicago] PHP Fatal error:  Class 'query' not found in /home/undecided/public_html/search/index.php on line 78
+[08-Mar-2013 19:09:59 America/Chicago] PHP Fatal error:  Class 'query' not found in /home/undecided/public_html/search/index.php on line 78
+[08-Mar-2013 19:10:35 America/Chicago] PHP Fatal error:  Class 'query' not found in /home/undecided/public_html/search/index.php on line 78
+[08-Mar-2013 19:13:41 America/Chicago] PHP Fatal error:  Class 'query' not found in /home/undecided/public_html/search/index.php on line 79
+[08-Mar-2013 19:15:34 America/Chicago] PHP Fatal error:  Class 'query' not found in /home/undecided/public_html/search/index.php on line 79
+[08-Mar-2013 19:15:35 America/Chicago] PHP Fatal error:  Class 'query' not found in /home/undecided/public_html/search/index.php on line 79
+[08-Mar-2013 19:16:05 America/Chicago] PHP Fatal error:  Class 'query' not found in /home/undecided/public_html/search/index.php on line 79
+[08-Mar-2013 19:17:43 America/Chicago] PHP Fatal error:  Class 'querry' not found in /home/undecided/public_html/search/index.php on line 78
+[08-Mar-2013 19:19:38 America/Chicago] PHP Fatal error:  Class 'querry' not found in /home/undecided/public_html/search/index.php on line 78
+[10-Mar-2013 13:19:05 America/Chicago] PHP Fatal error:  Class 'querry' not found in /home/undecided/public_html/search/index.php on line 78
